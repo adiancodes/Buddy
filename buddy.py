@@ -50,7 +50,7 @@ def takeCommand():
     return query
 
 # Main Program starts here
-speak("Initializing Sahayak Assistant ... , ")
+speak("Initializing Buddy Assistant ... , ")
 
 wishMe()
 
