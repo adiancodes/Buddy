@@ -6,7 +6,7 @@ import os
 import smtplib
 import webbrowser
 
-print("Initializing Sayahak Assistant")
+print("Initializing Buddy Assistant")
  
 MASTER = "Igris ,"
 
@@ -29,7 +29,7 @@ def wishMe():
     else:
         speak("Good Evening " +MASTER)
         
-    speak("Hi, I am your Sahayak. how can I be of your help today?")
+    speak("Hi, I am your Buddy. how can I be of your help today?")
 
 # this function will take command from the microphone
 def takeCommand():
